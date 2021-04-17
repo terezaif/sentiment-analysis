@@ -3,4 +3,4 @@ seaborn==0.11.1
 dash==1.20.0
 gunicorn==20.1.0
 transformers==4.5.1
-torch==1.8.1 -f https://download.pytorch.org/whl/torch_stable.htmlownload.pytorch.org/whl/torch_stable.html
+tensorflow-cpu

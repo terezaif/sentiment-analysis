@@ -39,6 +39,11 @@ app.layout = html.Div(
             id="title",
             children="Sentiment Analysis with Pretrained Transformers Pipeline",
         ),
+        html.A(
+            "Huggingface Pipeline",
+            href="https://huggingface.co/transformers/main_classes/pipelines.html#transformers.TextClassificationPipeline",
+            target="_blank",
+        ),
         html.Div(children="Add some text you want the sentiment for!"),
         dcc.Textarea(
             id="textarea-state-example",
